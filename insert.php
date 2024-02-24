@@ -12,7 +12,7 @@ if(isset($_POST['simpan'])){
 $kategori = $_POST['kategori'];
 $sql = "INSERT INTO tabelkategori VALUES ('', '$kategori')";
 $result = mysqli_query($koneksi, $sql);
-header("location:http://localhost/belajarE/restoran/kategori/select.php");
+header("location: ");
 }
 
 
