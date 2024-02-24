@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Page | Aplikasi Restoran SMK </title>
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="..">
 </head>
 <body>
 <div class="container">
@@ -26,10 +26,7 @@
             <li class="nav-item"><a class="nav-link" href="?f=orderdetail&m=select">order detail</a></li>
             <li class="nav-item"><a class="nav-link" href="?f=user&m=select">user</a></li>
         </ul>
-    </div>
-</div>
-
-</div>
+    </div> </div> </div>
 <div class="row mt-5">
     <div class="col">
         <p class="text-center">2024 - copyright@smkrevit.com</p>
@@ -42,8 +39,5 @@ if(isset($_GET['f'])&& isset($_GET['m'])){
     $file='.../'.$f.'/'.$m.'.php';
     require_once $file;
 }
-
-
-
 </body>
 </html>
