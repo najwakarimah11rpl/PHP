@@ -28,7 +28,7 @@ public function rowCOUNT($sql){
 } public function runSQL($sql){
     $result = mysqli_query($this->koneksi,$sql);
 
-} 
+} } 
 
 $db=new DB;
 var_dump($db);
