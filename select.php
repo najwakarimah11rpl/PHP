@@ -1,4 +1,9 @@
 <?php
+require_once "../function.php"
+$sql="SELECT idkategori FROM tblkategori";
+$result=mysqli_query($koneksi,$sql);
+$jumlahdata=mysqli_num_rows($result);
+
 $banyak=3;
 $halaman=ceil($jumlahdata/$banyak);
 for($i=1; $i<= $halaman; $i++){
